@@ -90,3 +90,12 @@ Just create new branch
 $ git branch <branch>
 $ git branch feature/new_branch
 ```
+
+## git rebase
+https://git-scm.com/docs/git-rebase
+
+```
+$ git rebase -i HEAD~2
+
+```
+
