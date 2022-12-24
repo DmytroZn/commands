@@ -120,7 +120,7 @@ $ git merge main
 ```
 
 ## git reset 
-https://initialcommit.com/blog/git-reset#what-is-git-reset
+https://initialcommit.com/blog/git-reset#what-is-git-reset  
 https://git-scm.com/docs/git-reset
 
 Before make
