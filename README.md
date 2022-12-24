@@ -122,7 +122,7 @@ $ git merge main
 ## git reset 
 https://initialcommit.com/blog/git-reset#what-is-git-reset
 
-Beafore make
+Before make
 ```
 $ git fetch --all
 ```
@@ -130,3 +130,8 @@ Then
 ```
 $ git reset --hard origin/develop
 ```
+or
+```
+$ git reset --soft origin/develop
+```
+
