@@ -95,7 +95,7 @@ $ git branch feature/new_branch
 https://git-scm.com/docs/git-rebase
 
 ```
-$ git rebase -i HEAD~2
+$ git rebase
 ```
 
 ## Squash Commits
