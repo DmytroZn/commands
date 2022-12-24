@@ -34,16 +34,19 @@ $ git stash apply 1
 ## git checkout
 Make new branch and switch to new the branch
 ```
+$ git checkout -b <branch>
 $ git checkout -b feature/new_branch
 ```
 
 Make clone branch from orign branch. However before better do ```git fetch --all``` and see all branches ```git branch -a```
 ```
+$ git checkout -b <branch> origin/<branch>
 $ git checkout -b feature/new_branch origin/feature/new_branch
 ```
 
 Just switch to branch
 ```
+$ git checkout <branch>
 $ git checkout feature/new_branch
 ```
 
@@ -68,14 +71,22 @@ $ git branch -a
 Rename branch
 ```
 $ git branch -m | -M [<oldbranch>] <newbranch>
+$ git branch -m | -M feature/my_branch_test feature/my_branch
 ```
 
 Delete branch
 ```
-$ git branch -d | -D
+$ git branch -d | -D <branch>
+$ git branch -d | -D feature/new_branch
+```
+Delete in remote repository 
+```
+git push origin --delete <branch>
+git push origin --delete feature/new_branch
 ```
 
 Just create new branch
 ```
+$ git branch <branch>
 $ git branch feature/new_branch
 ```
