@@ -96,7 +96,6 @@ https://git-scm.com/docs/git-rebase
 
 ```
 $ git rebase -i HEAD~2
-
 ```
 
 ## Squash Commits
@@ -110,4 +109,12 @@ Then will open editor and we need to change `pick` -> `squash` or just `s`
 And make push
 ```
 $ git push --force
+```
+
+
+## git merge
+
+We want to make merge in branch feature/my_branch
+```
+$ git merge main
 ```
