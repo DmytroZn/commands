@@ -38,7 +38,7 @@ $ git checkout -b <branch>
 $ git checkout -b feature/new_branch
 ```
 
-Make clone branch from orign branch. However before better do ```git fetch --all``` and see all branches ```git branch -a```
+Make clone branch from orign branch. However before better do `git fetch --all` and see all branches `git branch -a`
 ```
 $ git checkout -b <branch> origin/<branch>
 $ git checkout -b feature/new_branch origin/feature/new_branch
@@ -99,3 +99,15 @@ $ git rebase -i HEAD~2
 
 ```
 
+## Squash Commits
+https://www.git-tower.com/learn/git/faq/git-squash
+
+For instance we want to squash last two commits
+```
+$ git rebase -i HEAD~2
+```
+Then will open editor and we need to change `pick` -> `squash` or just `s`
+And make push
+```
+$ git push --force
+```
