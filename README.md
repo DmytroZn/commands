@@ -121,16 +121,19 @@ $ git merge main
 
 ## git reset 
 https://initialcommit.com/blog/git-reset#what-is-git-reset
+https://git-scm.com/docs/git-reset
 
 Before make
 ```
 $ git fetch --all
 ```
-Then
+Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded. Any untracked files or directories in the way of writing any tracked files are simply deleted.  
 ```
 $ git reset --hard origin/develop
 ```
-or
+or 
+`soft`  
+Does not touch the index file or the working tree at all (but resets the head to <commit>, just like all modes do). This leaves all your changed files "Changes to be committed", as git status would put it.
 ```
 $ git reset --soft origin/develop
 ```
