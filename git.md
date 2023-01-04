@@ -110,6 +110,7 @@ And make push
 ```
 $ git push --force
 ```
+Sometimes need to make `pull`
 
 Simple solution without rebase
 ```
