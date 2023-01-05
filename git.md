@@ -149,9 +149,14 @@ $ git reset --soft origin/develop
   https://www.nobledesktop.com/learn/git/undo-changes
   
   1. Undoing Your Last Commit (That Has Not Been Pushed).    
-    for instance last two commits
+    For instance last two commits.  
+    If you want to keep changes:
   ```
   $ git reset --soft HEAD~2
+  ```
+  If you don`t want to keep changes:
+  ```
+  $ git reset --hard HEAD~2
   ```
 
 
