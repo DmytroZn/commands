@@ -146,7 +146,8 @@ Does not touch the index file or the working tree at all (but resets the head to
 $ git reset --soft origin/develop
 ```
 ## Undoing a Commit
-  https://www.nobledesktop.com/learn/git/undo-changes
+  https://www.nobledesktop.com/learn/git/undo-changes  
+  https://www.git-tower.com/learn/git/faq/undo-last-commit
   
   1. Undoing Your Last Commit (That Has Not Been Pushed).    
     For instance last two commits.  
