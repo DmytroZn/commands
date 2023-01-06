@@ -112,7 +112,7 @@ $ git push --force
 ```
 Sometimes need to make `pull`
 
-Simple solution without rebase
+Simple solution without rebase if (That Has Not Been Pushed)
 ```
 git reset --soft HEAD~2 
 git commit -m "new commit message"
