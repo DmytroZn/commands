@@ -106,6 +106,16 @@ For instance we want to squash last two commits
 $ git rebase -i HEAD~2
 ```
 Then will open editor and we need to change `pick` -> `squash` or just `s`
+
+May need to do
+```
+git pull <remote> <branch>
+```
+or
+```
+git branch --set-upstream-to=origin/<branche> <branche>
+```
+
 And make push
 ```
 $ git push --force
